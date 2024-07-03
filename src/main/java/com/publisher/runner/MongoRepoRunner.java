@@ -27,6 +27,7 @@ public class MongoRepoRunner implements CommandLineRunner {
 
 	private void publishABook() {
 		Book book = new Book();
+		book.setId("1");
 		book.setTitle("Telugu");
 		book.setAuthor("Anand");
 		book.setPages(690);
